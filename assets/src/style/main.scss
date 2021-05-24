@@ -1,44 +1,44 @@
 // Переопределение дефолтных значений переменных Bootstrap 4 и определение своих
 @import "variables";
 
-// Подключение нужных SCSS исходников Bootstrap 4
-@import "../../../node_modules/bootstrap/scss/_functions";
-@import "../../../node_modules/bootstrap/scss/_variables";
-@import "../../../node_modules/bootstrap/scss/_mixins";
-@import "../../../node_modules/bootstrap/scss/_root";
-@import "../../../node_modules/bootstrap/scss/_reboot";
-@import "../../../node_modules/bootstrap/scss/_type";
-@import "../../../node_modules/bootstrap/scss/_images";
-@import "../../../node_modules/bootstrap/scss/_code";
-@import "../../../node_modules/bootstrap/scss/_grid";
-@import "../../../node_modules/bootstrap/scss/_tables";
-@import "../../../node_modules/bootstrap/scss/_forms";
-@import "../../../node_modules/bootstrap/scss/_buttons";
-@import "../../../node_modules/bootstrap/scss/_transitions";
-@import "../../../node_modules/bootstrap/scss/_dropdown";
-@import "../../../node_modules/bootstrap/scss/_button-group";
-@import "../../../node_modules/bootstrap/scss/_input-group";
-@import "../../../node_modules/bootstrap/scss/_custom-forms";
-@import "../../../node_modules/bootstrap/scss/_nav";
-@import "../../../node_modules/bootstrap/scss/_navbar";
-@import "../../../node_modules/bootstrap/scss/_card";
-@import "../../../node_modules/bootstrap/scss/_breadcrumb";
-@import "../../../node_modules/bootstrap/scss/_pagination";
-@import "../../../node_modules/bootstrap/scss/_badge";
-@import "../../../node_modules/bootstrap/scss/_jumbotron";
-@import "../../../node_modules/bootstrap/scss/_alert";
-@import "../../../node_modules/bootstrap/scss/_progress";
-@import "../../../node_modules/bootstrap/scss/_media";
-@import "../../../node_modules/bootstrap/scss/_list-group";
-@import "../../../node_modules/bootstrap/scss/_close";
-@import "../../../node_modules/bootstrap/scss/_toasts";
-@import "../../../node_modules/bootstrap/scss/_modal";
-@import "../../../node_modules/bootstrap/scss/_tooltip";
-@import "../../../node_modules/bootstrap/scss/_popover";
-@import "../../../node_modules/bootstrap/scss/_carousel";
-@import "../../../node_modules/bootstrap/scss/_spinners";
-@import "../../../node_modules/bootstrap/scss/_utilities";
-@import "../../../node_modules/bootstrap/scss/_print";
+@import "../../../node_modules/bootstrap3/dist/css/bootstrap.css";
+@import "../../../node_modules/jquery-ui/themes/base/all.css";
+@import "../../../node_modules/fancybox/dist/css/jquery.fancybox.css";
+@import "../../../node_modules/jgrowl/jquery.jgrowl.css";
+@import "../../../node_modules/slick-slider/slick/slick.scss";
+@import "../../../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css";
+@import "../../../node_modules/nouislider/dist/nouislider.css";
+@import "../../../node_modules/swiper/swiper-bundle.css";
+
+// components
+@import "/assets/src/style/components/minishop.css";
+@import "/assets/src/style/components/msearch2.css";
+@import "/assets/src/style/components/msfavorite.css";
+@import "/assets/src/style/components/easycomm.css";
+
+// makeup
+@import "/assets/src/style/_1reset.css";
+@import "/assets/src/style/_default.css";
+@import "/assets/src/style/_responsive.css";
+@import "/assets/src/style/custom.css";
+@import "/assets/src/style/custom-new.css";
+@import "/assets/src/style/header_new.css";
+@import "/assets/src/style/header_new_custom2.css";
+@import "/assets/src/style/vacant.css";
+@import "/assets/src/style/sprite.css";
+@import "/assets/src/style/page.css";
+@import "/assets/src/style/skanvesi.css";
+@import "/assets/src/style/mobile_icons.css";
+@import "/assets/src/style/show_info_product.css";
+@import "/assets/src/style/errorpage.css";
+@import "/assets/src/style/modals.css";
+@import "/assets/src/style/vheader_good.css";
+@import "/assets/src/style/resize_1440.css";
+@import "/assets/src/style/shop_list.css";
+@import "/assets/src/style/thank_subscribing.css";
+
+@import "/assets/src/style/page_css/cooperation.css";
+@import "/assets/src/style/page_css/about.css";
 
 // Подключение своих SCSS файлов
 @import "my";

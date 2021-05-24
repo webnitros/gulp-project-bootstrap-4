@@ -1,0 +1,95 @@
+.moreinfval .val2 p {
+    line-height: 1.2;
+    font-size: 12px;
+    color: #828282;
+}
+
+.moreinfval .val2 p.tit {
+    color: #333;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 13px;
+}
+
+.moreinfval .val1 {
+    margin-bottom: 15px;
+    min-height: 110px;
+}
+
+.moreinfval .val1 p {
+    font-size: 12px;
+    color: #828282;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    margin: 0;
+
+}
+
+.moreinfval .val1 p span {
+    width: 120px;
+    display: inline-block;
+}
+
+
+.moreinfval .val1 p i {
+    text-align: right;
+}
+
+
+.moreinfval .val1 p i:after {
+    right: 0;
+    position: absolute;
+}
+
+
+.moreinfval {
+    position: absolute;
+    z-index: 6;
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 100%;
+    padding: 75px 15px 5px;
+    overflow: hidden;
+    display: none;
+}
+
+.moreinfval .val2 p.des {
+    position: relative;
+    max-height: 125px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    line-height: 16px;
+}
+
+
+.anothun div.btnmoreinf {
+    z-index: 8;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 38px;
+    right: 9px;
+    cursor: pointer;
+    opacity: .6;
+}
+
+.anothun div.btnmoreinf:hover {
+    opacity: 1;
+}
+
+@media (max-width: 1200px) {
+    .anothun div.btnmoreinf {
+        display: none !important;
+    }
+}

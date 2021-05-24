@@ -1,0 +1,16 @@
+
+.contents_page a {
+    color: #2887e8;
+    text-decoration: underline !important;
+}
+.contents_page a:hover {
+    text-decoration: none !important;
+}
+
+.custom_class {
+    display: block;
+}
+
+textarea:disabled,input:disabled {
+    background-color: #cbcbcb;
+}

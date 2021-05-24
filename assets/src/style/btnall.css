@@ -1,0 +1,70 @@
+.but, .btn {
+    border-radius: 3px;
+}
+
+.but.btn-success, .btn.btn-success {
+    font-size: 13px;
+    background: #5DAC0D !important;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.but.btn-success:hover, .btn.btn-success:hover {
+    background: #4D8316 !important;
+}
+
+.but.btn-info, .btn.btn-info {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #5DAC0D;
+}
+
+.but.btn-info:hover, .btn.btn-info:hover {
+    background: #EDEDED !important;
+    border: 2px solid #4D8316;
+}
+
+.but.btn-warning, .btn.btn-warning {
+    font-size: 13px;
+    background: #DE5617 !important;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.but.btn-warning:hover, .btn.btn-warning:hover {
+    background: #CC2500 !important;
+}
+
+.but.btn-danger, .btn.btn-danger {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #DE5617;
+}
+
+.but.btn-danger:hover, .btn.btn-danger:hover {
+    background: #EDEDED !important;
+    border: 2px solid #CC2500;
+}
+
+.but.btn-default, .btn.btn-default {
+    font-size: 13px;
+    background: #2399E2 !important;
+    border-radius: 3px;
+    color: #ffffff;
+    border: none;
+}
+
+.but.btn-default:hover, .btn.btn-default:hover {
+    background: #006CAF !important;
+}
+
+.but.btn-primary, .btn.btn-primary {
+    background: #ffffff !important;
+    color: #000000 !important;
+    border: 2px solid #2399E2;
+}
+
+.but.btn-primary:hover, .btn.btn-primary:hover {
+    background: #EDEDED !important;
+    border: 2px solid #006CAF;
+}

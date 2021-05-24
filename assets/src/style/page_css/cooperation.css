@@ -1,0 +1,250 @@
+.nab1inf .tabcoop button{
+  font-size: 18px;
+  font-weight: 300;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 4px 0;
+  margin-right: 19px;
+}
+.nab1inf .tabcoop button:last-child{
+  margin-right: 0;
+}
+.nab1inf .tabcoop button.active{
+  border-bottom: 3px solid #dd5415;
+}
+.nab1inf .tabcoop{
+  padding: 10px 0 20px;
+}
+.tabcoop-val{
+  display: none;
+}
+.tabcoop-val.active{
+  display: block;
+}
+.about .namepres.lowerc{
+  text-transform: none;
+}
+.nab1inf.pl0{
+  padding-left: 0;
+}
+
+.tabcoop-val .nab1infunit7{
+  background: #4e466c url('../images/about/n1inf7.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit p {
+  padding: 17px 1px 16px 65px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.nab1infunit:nth-child(even){
+  padding-left: 15px;
+  clear: both;
+}
+.nab1infunit:nth-child(odd){
+  padding-right: 15px;
+}
+.tabcoop-val .nab1infun{
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.tabcoop-val .nab1infun .nab1infunit{
+  -ms-flex-preferred-size: 48%;
+  flex-basis: 48%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 66px;
+}
+.tabcoop-val .nab1infun .nab1infunit p{
+  margin: auto 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: transparent;
+}
+
+.tabcoop-val .nab1infunit1{
+  background: #4e466c url('../images/about/n1inf1.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit2{
+  background: #4e466c url('../images/about/n1inf2.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit3{
+  background: #4e466c url('../images/about/n1inf3.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit4{
+  background: #4e466c url('../images/about/n1inf4.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit5{
+  background: #4e466c url('../images/about/n1inf5.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit6{
+  background: #4e466c url('../images/about/n1inf6.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit8{
+  background: #4e466c url('../images/about/n1inf8.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit9{
+  background: #4e466c url('../images/about/n1inf9.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit10{
+  background: #4e466c url('../images/about/n1inf10.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit11{
+  background: #4e466c url('../images/about/n1inf11.png') no-repeat 18px center;
+}
+.tabcoop-val .nab1infunit12{
+  background: #4e466c url('../images/about/n1inf12.png') no-repeat 18px center;
+}
+.cooperate{
+  padding-top: 25px;
+  padding-bottom: 65px;
+}
+.cooperate .h2{
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+}
+.cooperate .h2:before{
+  position: absolute;
+  content: "";
+  background: url('../images/about/cooperbef.png') no-repeat;
+  width: 189px;
+  height: 67px;
+  z-index: 1;
+  left: 100%;
+  margin-left: 20px;
+  top: 7px;
+}
+.cooperform input, .cooperform textarea{
+  width: 100%;
+  height: 62px;
+  font-size: 18px;
+  font-weight: 300;
+  border: 1px solid #fa5508;
+  margin-bottom: 40px;
+  padding: 0 40px;
+  -webkit-box-shadow: 0 2px 10px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px 5px rgba(0,0,0,0.1);
+  background: #f8f7fa;
+}
+.cooperform textarea{
+  height: 250px;
+  padding: 20px 40px;
+  line-height: 1.3;
+}
+.coopbtn{
+  display: block;
+  margin: 0 auto;
+  height: 60px;
+  -webkit-box-shadow: 0 2px 10px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 10px 5px rgba(0,0,0,0.1);
+  color: #ffffff;
+  background: #fa5508;
+  font-size: 30px;
+  font-weight: 300;
+  border: 1px solid #fa5508;
+  padding: 0 115px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  width: 100%;
+  max-width: 360px;
+}
+.coopbtn:hover{
+  background: #ffffff;
+  color: #fa5508;
+}
+
+.singleshop .ajax_form .error {
+  position: relative;
+  top: -35px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .tabcoop-val .nab1infunit1{
+    background: url('../images/about/n1inf1m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit2{
+    background: url('../images/about/n1inf2m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit3{
+    background: url('../images/about/n1inf3m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit4{
+    background: url('../images/about/n1inf4m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit5{
+    background: url('../images/about/n1inf5m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit6{
+    background: url('../images/about/n1inf6m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit7{
+    background: url('../images/about/n1inf7m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit8{
+    background: url('../images/about/n1inf8m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit9{
+    background: url('../images/about/n1inf9m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit10{
+    background: url('../images/about/n1inf10m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit11{
+    background: url('../images/about/n1inf11m.png') no-repeat 18px center;
+  }
+  .tabcoop-val .nab1infunit12{
+    background: url('../images/about/n1inf12m.png') no-repeat 18px center;
+  }
+  .cooperate .h2:before{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tabcoop-val .nab1infun .nab1infunit{
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .cooperform input, .cooperform textarea {
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
+  .cooperform textarea{
+    height: 180px;
+    padding: 16px;
+  }
+  .coopbtn {
+    height: 50px;
+    font-size: 22px;
+    padding: 0 35px;
+  }
+  .nab1inf .tabcoop button{
+    margin-bottom: 15px;
+  }
+  .nab1inf .tabcoop{
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+  .nab1infun{
+    padding-top: 5px;
+  }
+}

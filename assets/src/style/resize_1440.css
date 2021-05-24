@@ -1,0 +1,186 @@
+@media screen and (min-width: 1470px) {
+	.ndelivery .delivery-back-goods .df .el .imgwr:before{
+		width: 104px !important;
+	}
+	.container {
+		width: 1440px;
+	}
+	.anothun.ms2_product {
+		max-width: 100%;
+	}
+	.menu_new_header_full .menu_new_header_full_list .the_element{
+		min-width: 350px;
+		max-width: 350px;
+	}
+	.menu_new_header_full .imgwr img{
+		width: 100%;
+	}
+	.card-goods .sncarddesk.fix {
+		margin-left: 250px;
+		width: 480px;
+	}
+	.new_cart .new_cart_content, .new_cart .new_cart_order_content {
+		flex-basis: 874px !important;
+		max-width: 874px !important;
+		min-width: 874px !important;
+	}
+	.header_new_topline .elem_search{
+		min-width: 978px;
+		max-width: 978px;
+	}
+	.suggestions-product.autocomplete-suggestions {
+		width: 978px !important;
+	}
+	.shoplist .shop-unit .shopun-left {
+		flex-basis: 70%;
+		max-width: 70%;
+		min-width: 70%;
+	}
+	.shoplist .shop-unit .shopun-right{
+		width: 30%;
+	}
+	.ndelivery .delivery-single-method .unit .el1{
+		min-width: 691px;
+		max-width: 691px;
+	}
+	.ndelivery .delivery-back-goods .df .el .imgwr:before{
+		width: 103px;
+	}
+	.contactswrap .ncontactbotwr{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.contactswrap .ncontactbotwr>div{
+		min-width: 25%;
+		max-width: 25%;
+	}
+	.header_new_topline .elem_search {
+		max-width: initial;
+		min-width: initial;
+		flex-grow: 1;
+	}
+	.new_listing .listing_content .listing_content_tab_wrap{
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.new_listing .listing_content .listing_content_tab_wrap .element_wrap{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.new_header_main_slider .new_header_main_slider_wrap .the_content{
+		min-width: 690px;
+	}
+}
+
+/*H2 reDesign*/
+/*Изменения для заголовков*/
+
+.clothslider .h2, .h2,.flat_page h1,.ncatlist h2,
+.anothercardlittle h5,.about_h3, .nab1infun h3, .nab1inf h3,
+.newswrap .popularlink h6{
+	font-size: 32px !important;
+	color: #000000 !important;
+	font-weight: 400 !important;
+}
+.clothslider .h2 a, .h2 a,.flat_page h1 a,.ncatlist h2 a,
+.anothercardlittle h5 a
+,.about_h3 a, .nab1infun h3 a, .nab1inf h3 a,
+.newswrap .popularlink h6 a{
+	font-size: 32px !important;
+	font-weight: 400 !important;
+	color: #999999 !important;
+	margin-left: 5px;
+}
+
+.ndelivery .title{
+	color: #000000 !important;
+}
+.ndelivery .delivery-form .delivery-form-df .el1 .title{
+	color: #DE5617 !important;
+}
+.ndelivery .delivery-back-goods .title{
+	color: #5DAC0D !important;
+}
+@media screen and (max-width: 1470px) {
+	.ndelivery .delivery-back-goods .df .day-after{
+		margin-left: -6px;
+	}
+	.ndelivery .delivery-back-goods .df .day-before{
+		margin-right: -10px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.ndelivery .delivery-back-goods .df .day-after{
+		margin-left: -9px;
+	}
+	.ndelivery .delivery-back-goods .df .day-before{
+		margin-right: -11px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	body .ndelivery .delivery-back-goods .df .day-after:before {
+		bottom: -29px;
+	}
+	body .ndelivery .delivery-back-goods .df .el .imgwr:before{
+		width: 146px;
+	}
+	.clothslider .h2, .h2,.flat_page h1,.ncatlist h2,
+	.anothercardlittle h5,.about_h3, .nab1infun h3, .nab1inf h3,
+	.newswrap .popularlink h6,
+	.clothslider .h2 a, .h2 a,.flat_page h1 a,.ncatlist h2 a,
+	.anothercardlittle h5 a
+	,.about_h3 a, .nab1infun h3 a, .nab1inf h3 a,
+	.newswrap .popularlink h6 a{
+		line-height: 1.3;
+		font-size: 30px !important;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.ndelivery .delivery-back-goods .df .el .imgwr:before{
+		margin-top: -1.5px !important;
+	}
+}
+@media screen and (max-width: 767px) {
+	.clothslider .h2, .h2,.flat_page h1,.ncatlist h2,
+	.anothercardlittle h5,.about_h3, .nab1infun h3, .nab1inf h3,
+	.newswrap .popularlink h6,
+	.clothslider .h2 a, .h2 a,.flat_page h1 a,.ncatlist h2 a,
+	.anothercardlittle h5 a
+	,.about_h3 a, .nab1infun h3 a, .nab1inf h3 a,
+	.newswrap .popularlink h6 a{
+		line-height: 1.3;
+		font-size: 20px !important;
+	}
+}
+body .ndelivery .delivery-method-section.delivery-method-section_method{
+	height: auto;
+}
+body .ndelivery .delivery-method-section{
+	height: auto;
+}
+
+
+@media screen and (max-width: 1240px) {
+	body .ndelivery .delivery-single-method .unit .el1{
+		flex-basis: auto;
+		flex-grow: 1;
+		padding-right: 15px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	body .ndelivery .delivery-single-method-company.delivery-single-method .unit {
+		height: auto !important;
+	}
+	body .ndelivery .delivery-method-section{
+		min-height: initial;
+	}
+	body .ndelivery .delivery-single-method.delivery-single-method-company .unit .del_but_map{
+		height: 43px;
+		background: #fff;
+	}
+}
+@media screen and (max-width: 768px) {
+	body .ndelivery .delivery-single-method .unit .el1{
+		padding-right: 0px;
+	}
+}

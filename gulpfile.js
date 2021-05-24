@@ -6,21 +6,22 @@ var path = {
         html: 'assets/build/',
         js: 'assets/build/js/',
         css: 'assets/build/css/',
-        img: 'assets/build/img/',
+        images: 'assets/build/images/',
         fonts: 'assets/build/fonts/'
     },
     src: {
         html: 'assets/src/*.html',
         js: 'assets/src/js/main.js',
         style: 'assets/src/style/main.scss',
-        img: 'assets/src/img/**/*.*',
+        images: 'assets/src/images/**/*.*',
         fonts: 'assets/src/fonts/**/*.*'
     },
     watch: {
         html: 'assets/src/**/*.html',
         js: 'assets/src/js/**/*.js',
-        css: 'assets/src/style/**/*.scss',
-        img: 'assets/src/img/**/*.*',
+        css: 'assets/src/style/**/*.css',
+        //css: 'assets/src/style/**/*.scss',
+        images: 'assets/src/images/**/*.*',
         fonts: 'assets/src/fonts/**/*.*'
     },
     clean: './assets/build/*'
@@ -46,7 +47,7 @@ var gulp = require('gulp'),  // подключаем Gulp
     uglify = require('gulp-uglify'), // модуль для минимизации JavaScript
     cache = require('gulp-cache'), // модуль для кэширования
     imagemin = require('gulp-imagemin'), // плагин для сжатия PNG, JPEG, GIF и SVG изображений
-    jpegrecompress = require('imagemin-jpeg-recompress'), // плагин для сжатия jpeg	
+    jpegrecompress = require('imagemin-jpeg-recompress'), // плагин для сжатия jpeg
     pngquant = require('imagemin-pngquant'), // плагин для сжатия png
     del = require('del'), // плагин для удаления файлов и каталогов
     rename = require('gulp-rename');
@@ -104,7 +105,7 @@ gulp.task('fonts:build', function () {
 
 // обработка картинок
 gulp.task('image:build', function () {
-    return gulp.src(path.src.img) // путь с исходниками картинок
+    return gulp.src(path.src.images) // путь с исходниками картинок
         .pipe(cache(imagemin([ // сжатие изображений
             imagemin.gifsicle({ interlaced: true }),
             jpegrecompress({
@@ -115,10 +116,10 @@ gulp.task('image:build', function () {
             pngquant(),
             imagemin.svgo({ plugins: [{ removeViewBox: false }] })
         ])))
-        .pipe(gulp.dest(path.build.img)); // выгрузка готовых файлов
+        .pipe(gulp.dest(path.build.images)); // выгрузка готовых файлов
 });
 
-// удаление каталога build 
+// удаление каталога build
 gulp.task('clean:build', function () {
     return del(path.clean);
 });
@@ -146,12 +147,12 @@ gulp.task('watch', function () {
     gulp.watch(path.watch.html, gulp.series('html:build'));
     gulp.watch(path.watch.css, gulp.series('css:build'));
     gulp.watch(path.watch.js, gulp.series('js:build'));
-    gulp.watch(path.watch.img, gulp.series('image:build'));
+    gulp.watch(path.watch.images, gulp.series('image:build'));
     gulp.watch(path.watch.fonts, gulp.series('fonts:build'));
 });
 
 // задача по умолчанию
 gulp.task('default', gulp.series(
     'build',
-    gulp.parallel('webserver','watch')      
+    gulp.parallel('webserver','watch')
 ));

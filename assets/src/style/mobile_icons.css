@@ -1,0 +1,34 @@
+.icon_mobile{
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .icon_mobile{
+    display: block;
+  }
+    .fix .nofixright.nofix {
+        position: relative;
+        top: -12px;
+    }
+    .fix .nofixright.nofix > * {
+        margin-top: 12px;
+        margin-bottom: 2px;
+    }
+    .card-goods .rel > .lmy {
+        z-index: 9;
+    }
+}
+
+.icon_mobile {
+    position: relative;
+  top: -5px;
+}
+
+.icon_mobile > a {
+    display: inline-block;
+    position: relative;
+}
+
+body.fix.modal-open .nofix.nofixright.icon_mobile{
+    margin-right: -15px;
+}

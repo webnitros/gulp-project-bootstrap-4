@@ -1,0 +1,61 @@
+.cartwrap .cart-unit .thefull{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	top: 0;
+	background: rgba(255,255,255,.7);
+	z-index: 9;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.cartwrap .cart-unit .thefull .val{
+	margin: auto;
+	text-align: center;
+}
+.thefull .theclose{
+	position: absolute;
+	right: 20px;
+	top: 8px;
+	font-size: 24px;
+	padding: 0;
+	border: none;
+	background: transparent;
+	height: 20px;
+	line-height: 20px;
+}
+.cartwrap .cart-unit .thefull .val p{
+	font-size: 30px;
+	color: #f25700;
+	margin-bottom: 13px;
+}
+.cartwrap .cart-unit .thefull .val .btn{
+	border: 1px solid #f25700;
+	color: #f25700;
+	border-radius: 2px;
+	border: 1px solid #f25700;
+	background: #ffffff;
+	margin: 0 8px;
+	height: 40px;
+	padding: 0;
+	line-height: 40px;
+	width: 220px;
+	font-size: 16px;
+	transition: .2s;
+}
+.cartwrap .cart-unit .thefull .val .btn:hover{
+	background: #f25700;
+	color: #ffffff;
+}
+.cartwrap .cart-unit .thefull .val .btn.btnor{
+	background: #f25700;
+	color: #ffffff;
+}
+.cartwrap .cart-unit .thefull .val .btn.btnor:hover{
+	color: #f25700;
+	background: #ffffff;
+}

@@ -1,0 +1,20 @@
+.nmodorder .tit.msoc_product_pagetitle,
+.nmodorder .add_to_cart__product_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.nmodorder .titwr {
+   right: 0;
+ }
+
+.msoc_field__required::after {
+    color: #E31E1E;
+
+    /**/
+    position: static;
+    font-size: 14px;
+    margin: 0;
+}
