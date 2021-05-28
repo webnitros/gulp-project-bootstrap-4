@@ -12,6 +12,7 @@
     "start": "gulp"
   },
   "dependencies": {
+    "bootstrap": "4.4.1",
     "bootstrap3": "^3.3.5",
     "fancybox": "^3.0.1",
     "jgrowl": "^1.4.7",
